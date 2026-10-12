@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Darling Aisha Kabir Shehu ❤️</title>
+
+    <meta name="description"
+          content="A beautiful romantic website created especially for Darling Aisha Kabir Shehu.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+          rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+     CINEMATIC INTRO
+====================================== -->
+
+<div id="cinematicIntro" class="cinematic-intro">
+
+    <!-- Star Background -->
+    <div class="cinematic-stars" id="cinematicStars"></div>
+
+    <!-- Glowing Heart -->
+    <div class="intro-content" id="introContent">
+
+        <div class="cinematic-heart">
+            <i class="bi bi-heart-fill"></i>
+        </div>
+
+        <!-- Opening Message -->
+        <div class="intro-opening" id="introOpening">
+
+            <p class="intro-small-text">
+                A LITTLE SOMETHING FROM MY HEART
+            </p>
+
+            <h2 id="openingLine"></h2>
+
+        </div>
+
+        <!-- Name Reveal -->
+        <div class="intro-name-reveal d-none" id="introNameReveal">
+
+            <p class="intro-dedication">
+                CREATED FOR SOMEONE VERY SPECIAL
+            </p>
+
+            <h1>
+                Darling
+                <span>Aisha Kabir Shehu</span>
+            </h1>
+
+            <div class="intro-divider">
+                <span></span>
+                <i class="bi bi-heart-fill"></i>
+                <span></span>
+            </div>
+
+            <p class="intro-subtitle">
+                This little world belongs to you.
+            </p>
+
+            <button class="btn intro-enter-button"
+                    id="enterLoveWebsite">
+
+                Enter My Little World
+
+                <i class="bi bi-arrow-right ms-2"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Text -->
+    <div class="intro-footer">
+        MADE WITH LOVE <span>♥</span>
+    </div>
+
+</div>
+
+    <!-- Background Effects -->
+    <div class="background-glow"></div>
+    <div id="hearts-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top px-3 px-md-5 py-3">
+        <div class="container-fluid">
+
+            <a class="navbar-brand romantic-brand" href="#home">
+                With Love <span>♥</span>
+            </a>
+
+            <button class="btn music-button" id="musicButton" type="button">
+                <i class="bi bi-music-note-beamed"></i>
+                <span id="musicLabel">Our Music</span>
+            </button>
+
+        </div>
+    </nav>
+
+
+    <!-- Welcome Section -->
+    <section class="hero-section d-flex align-items-center text-center"
+             id="home">
+
+        <div class="container hero-content">
+
+            <p class="eyebrow mb-4">
+                ✨ A LITTLE WORLD MADE JUST FOR YOU ✨
+            </p>
+
+            <div class="hero-heart mb-3">
+                <i class="bi bi-heart-fill"></i>
+            </div>
+
+            <h1 class="hero-title">
+                Darling
+                <span class="d-block">Aisha Kabir Shehu</span>
+            </h1>
+
+            <p class="hero-description mx-auto mt-4 mb-4">
+                If the world were a book, meeting you would be
+                one of my favourite chapters.
+            </p>
+
+            <button class="btn primary-button mt-3"
+                    id="openSurprise">
+
+                Open Your Surprise
+
+                <i class="bi bi-envelope-heart ms-2"></i>
+            </button>
+
+            <p class="small-note mt-4">
+                Made with love, especially for you.
+            </p>
+
+        </div>
+
+        <div class="scroll-indicator">
+            <span>SCROLL TO EXPLORE</span>
+            <i class="bi bi-chevron-down"></i>
+        </div>
+
+    </section>
+
+
+    <!-- Love Letter Section -->
+    <section class="content-section d-none" id="loveLetter">
+
+        <div class="container">
+
+            <div class="section-heading text-center mb-5">
+
+                <p class="eyebrow">A MESSAGE FROM MY HEART</p>
+
+                <h2 class="section-title">
+                    A Letter for <span>You</span>
+                </h2>
+
+                <div class="heading-heart">♥</div>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-lg-9 col-xl-8">
+
+                    <article class="letter-card">
+
+                        <div class="letter-top d-flex justify-content-between align-items-center">
+                            <span>♡</span>
+                            <span>Written with love</span>
+                            <span>♡</span>
+                        </div>
+
+                        <h3 class="letter-greeting mt-4">
+                            My Darling Aisha,
+                        </h3>
+
+                        <div class="letter-body" id="letterBody"></div>
+
+                        <div class="letter-closing mt-4">
+                            With all my affection,
+                            <span class="d-block">Your Special Person ❤️</span>
+                        </div>
+
+                    </article>
+
+                    <div class="text-center">
+                        <button class="btn secondary-button"
+                                id="revealReasons">
+
+                            There's More, My Darling
+
+                            <i class="bi bi-heart ms-2"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Reasons Section -->
+    <section class="content-section d-none" id="reasons">
+
+        <div class="container">
+
+            <div class="section-heading text-center mb-5">
+
+                <p class="eyebrow">A FEW THINGS ABOUT YOU</p>
+
+                <h2 class="section-title">
+                    Why You're <span>So Special</span>
+                </h2>
+
+                <p class="section-description mx-auto mt-3">
+                    Some feelings are difficult to explain,
+                    but here are a few things I adore about you.
+                </p>
+
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-12 col-sm-6 col-xl-3">
+
+                    <div class="reason-card h-100 text-center">
+
+                        <div class="reason-icon">
+                            <i class="bi bi-flower1"></i>
+                        </div>
+
+                        <h3>Your Beauty</h3>
+
+                        <p>
+                            There is something beautiful about you
+                            that goes beyond what the eyes can see.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-xl-3">
+
+                    <div class="reason-card h-100 text-center">
+
+                        <div class="reason-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+
+                        <h3>Your Uniqueness</h3>
+
+                        <p>
+                            You have your own special way of making
+                            ordinary moments feel meaningful.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-xl-3">
+
+                    <div class="reason-card h-100 text-center">
+
+                        <div class="reason-icon">
+                            <i class="bi bi-heart-fill"></i>
+                        </div>
+
+                        <h3>Your Heart</h3>
+
+                        <p>
+                            You have a special place in my heart
+                            that makes you different from everyone else.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-xl-3">
+
+                    <div class="reason-card h-100 text-center">
+
+                        <div class="reason-icon">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+
+                        <h3>Your Smile</h3>
+
+                        <p>
+                            Your smile is one of those little things
+                            that can make a difficult day feel lighter.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+
+                <button class="btn primary-button"
+                        id="openFinal">
+
+                    One Last Surprise
+
+                    <i class="bi bi-gift ms-2"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+     AISHA'S SECRET LOVE GARDEN
+====================================== -->
+
+<section id="loveGarden" class="love-garden-section">
+
+    <div class="container text-center">
+
+        <span class="garden-eyebrow">
+            MADE WITH LOVE, JUST FOR YOU
+        </span>
+
+        <h2 class="garden-title">
+            Aisha's <span>Secret Garden</span>
+        </h2>
+
+        <p class="garden-description">
+            Darling Aisha Kabir Shehu, there's a little magic
+            waiting for you here. Are you ready to discover it?
+        </p>
+
+        <!-- Garden -->
+        <div class="garden-stage" id="gardenStage">
+
+            <div class="garden-glow"></div>
+
+            <!-- Decorative stars -->
+            <span class="garden-star">✦</span>
+            <span class="garden-star">✧</span>
+            <span class="garden-star">✦</span>
+            <span class="garden-star">✧</span>
+            <span class="garden-star">✦</span>
+
+            <!-- Flowers grow here -->
+            <div class="garden-flowers" id="gardenFlowers">
+
+                <div class="garden-flower flower-one">🌷</div>
+                <div class="garden-flower flower-two">🌹</div>
+                <div class="garden-flower flower-three">🌸</div>
+                <div class="garden-flower flower-four">🌺</div>
+                <div class="garden-flower flower-five">🌷</div>
+                <div class="garden-flower flower-six">🌹</div>
+                <div class="garden-flower flower-seven">🌸</div>
+                <div class="garden-flower flower-eight">🌺</div>
+
+            </div>
+
+            <!-- Main heart -->
+            <div class="garden-center-heart" id="gardenHeart">
+                <i class="bi bi-heart-fill"></i>
+            </div>
+
+            <!-- Ground -->
+            <div class="garden-ground"></div>
+
+        </div>
+
+        <!-- Action -->
+        <button class="garden-button" id="bloomGardenBtn">
+            <i class="bi bi-flower1 me-2"></i>
+            Bloom My Garden
+        </button>
+
+        <p class="garden-hint" id="gardenHint">
+            A little surprise is waiting for you 🌷
+        </p>
+
+        <!-- Hidden surprise -->
+        <div class="garden-surprise" id="gardenSurprise">
+
+            <div class="surprise-heart">❤️</div>
+
+            <p class="surprise-eyebrow">
+                A LITTLE SECRET FROM MY HEART
+            </p>
+
+            <h3>
+                If I could choose one beautiful thing
+                to keep in my world...
+            </h3>
+
+            <h2 class="surprise-name">
+                I would choose you, Aisha. ❤️
+            </h2>
+
+            <p class="surprise-message">
+                Because some people bring a kind of happiness
+                that words can hardly explain. And for me,
+                you're one of those people.
+
+                <br><br>
+
+                You deserve beautiful moments, genuine happiness,
+                and a thousand reasons to smile. I hope this
+                little garden gives you one more.
+
+            </p>
+
+            <div class="surprise-divider">
+                <span></span>
+                <i class="bi bi-heart-fill"></i>
+                <span></span>
+            </div>
+
+            <p class="surprise-signature">
+                Created with love by<br>
+                <strong>Mubarak Sani (Mubeeey) ❤️</strong>
+            </p>
+
+            <button class="garden-again-btn" id="gardenAgainBtn">
+                <i class="bi bi-arrow-repeat me-2"></i>
+                Make the Garden Bloom Again
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Final Surprise -->
+    <section class="content-section final-section d-none"
+             id="finalSurprise">
+
+        <div class="container text-center">
+
+            <div class="final-heart mb-4">
+                <i class="bi bi-heart-fill"></i>
+            </div>
+
+            <p class="eyebrow">
+                AND BEFORE YOU GO...
+            </p>
+
+            <h2 class="section-title">
+                Darling Aisha,
+                <span class="d-block">You Are Special.</span>
+            </h2>
+
+            <div class="final-message mx-auto mt-4">
+
+                Out of all the things I could create,
+                I chose to create this little world just for you.
+
+                <br><br>
+
+                Not because a website can explain every feeling,
+                but because I wanted to do something different
+                to remind you that you matter to me.
+
+                <br><br>
+
+                May your smile always find a reason to shine,
+                and may beautiful things continue to find their
+                way into your life.
+
+            </div>
+
+            <div class="final-signature mt-4">
+                Made specially for you, my darling. ❤️
+            </div>
+
+            <button class="btn secondary-button mt-4"
+                    id="restart">
+
+                <i class="bi bi-arrow-counterclockwise me-2"></i>
+                Experience It Again
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+
+        <p class="mb-1">
+            Crafted with <span>♥</span> for Darling Aisha Kabir Shehu
+        </p>
+
+        <p class="footer-note mb-0">
+            A little love, wrapped in a website.
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
